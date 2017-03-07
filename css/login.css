@@ -1,0 +1,40 @@
+/*login css*/
+body{
+	background-color: #0ff;
+	text-align: center;
+}
+
+.title{
+	font-weight: bold;
+	border-color: #0ff;
+	border-radius: 5px;
+	border-style: solid;
+	display: inline-block;
+}
+
+.loginBox{
+	background-color: #fff;
+	display: inline-block;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 10px;
+	border-radius: 10px;
+	width: 500px;
+	height: 300px;/**/
+}
+
+@media (min-width: 500px){
+	/*if screen is desktop size*/
+	.loginBox{
+		width: 500px;
+		height: 300px;/**/
+	}
+}
+
+@media (max-width: 499px){
+	/*if screen is phone size*/
+	.loginBox{
+		width: 300px;
+	    height: 800px;/**/
+	}
+}
